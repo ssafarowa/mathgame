@@ -1,0 +1,56 @@
+body {
+	background-image: url(/i_am_not_doing_shit_today_mission_accomplished_in_gray_background_hd_black_aesthetic.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+h2 {
+	color: whitesmoke;
+	padding-left: 12px;
+}
+.container {
+	margin: 200px auto;
+	width: 1200px;
+}
+
+.row {
+	width: 600px;
+	margin-left: auto;
+}
+
+#todo-input {
+	margin-bottom: 15px;
+}
+
+#add-button {
+	background-color: rgb(74, 209, 74);
+	border: none;
+	padding: 8px 16px;
+}
+
+#toappend {
+	background-color: white;
+	margin-bottom: 10px;
+	width: 588px;
+	border-radius: 8px;
+}
+
+.col-xs-8 {
+	padding-left: 0;
+}
+
+p {
+	margin-bottom: 0;
+	padding: 4px 0;
+}
+.todo {
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 0;
+	border-bottom: 1px solid rgb(74, 209, 74);
+}
+button {
+	background-color: rgb(74, 209, 74);
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+}
