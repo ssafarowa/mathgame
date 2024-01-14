@@ -1,129 +1,100 @@
 body {
-	background-image: url(/i_am_not_doing_shit_today_mission_accomplished_in_gray_background_hd_black_aesthetic.jpg);
+	background-image: url(/Math-Background-for-PPT.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: "Handlee", cursive;
 }
-h2 {
-	color: whitesmoke;
-	margin-left: 12px;
+
+.col-xs-12 {
+	column-gap: 15px;
 }
-.container {
-	margin: 200px auto;
-	width: 1200px;
+
+.btn {
+	border-color: black;
+	padding: 12px;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.btn:hover {
+	color: white;
+	background-color: rgb(107, 106, 106);
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.txt-lg {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.txt-md {
+	font-size: 25px;
+}
+
+.txt-xl {
+	font-size: 60px;
 }
 
 .row {
-	width: 588px;
-	margin-left: auto;
+	margin-bottom: 20px;
 }
 
-#todo-input {
-	margin-bottom: 15px;
+.num {
+	width: 60px;
+	font-size: 40px;
 }
 
-#add-button {
-	background-color: rgb(74, 209, 74);
-	border: none;
-	padding: 8px 16px;
+.answer {
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
 }
-
-#toappend {
-	background-color: white;
-	margin-bottom: 10px;
-	width: 588px;
-	border-radius: 8px;
-}
-
-.col-xs-8,
-.col-xs-12 {
-	padding: 0;
-}
-
-p {
-	margin-bottom: 0;
-	padding: 4px 8px;
-}
-.todo {
+.quiz-container {
 	display: flex;
-	justify-content: space-between;
-	padding: 6px 10px;
-	border-bottom: 1px solid rgb(74, 209, 74);
+	align-items: center;
 }
-button {
-	background-color: rgb(74, 209, 74);
-	border: 1px solid white;
-	border-radius: 4px;
+
+#max {
+	width: auto;
+	height: 40px;
+	margin-left: 20px;
+	font-size: 25px;
+	padding: 4px 6px;
+}
+
+input {
+	border-radius: 8px;
+	border: solid grey 1px;
+}
+
+.countdown {
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
 	color: white;
 }
 
-#toappend .todo:last-child {
-	border-bottom: none;
+#name-btn {
+	margin-left: 10px;
 }
 
-.striked,
-.completed {
-	text-decoration: line-through;
-	color: gray;
+.inline {
+	display: inline;
 }
-
-.filter {
-	padding-left: 0;
-	color: white;
-	margin-top: 12px;
-}
-
-@media (min-width: 0px) and (max-width: 952px) {
-	body {
-		background-image: none;
-		background-color: rgb(48, 48, 48);
-	}
-	.container {
-		margin: 20px 20px;
-		width: auto;
-		padding: 0;
-	}
-
-	.row,
-	#toappend,
-	#todo-input {
-		width: auto;
-	}
-}
-
-@media (min-width: 953px) and (max-width: 1100px) {
-	.container {
-		margin-top: 80px;
-		margin-left: auto;
-		margin-right: 30px;
-	}
-
-	#todo-input,
-	#toappend {
-		width: auto;
-		margin-left: auto;
-		width: 500px;
-		margin-right: 20px;
-	}
-	#add-button,
-	h2,
-	h6 {
-		margin-left: 68px;
-	}
-	.col-xs-12 {
-		margin-right: 20px;
-	}
-}
-
-@media (min-width: 1101px) and (max-width: 1200px) {
-	.container {
-		margin-top: 120px;
-		margin-right: 40px;
-	}
-}
-
-@media (min-width: 1201px) and (max-width: 1400px) {
-	.container {
-		margin-right: 60px;
-		margin-top: 180px;
-	}
+.mtop {
+	margin-top: 20px;
 }
